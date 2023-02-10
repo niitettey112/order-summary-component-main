@@ -19,6 +19,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     background: url(./images/pattern-background-desktop.svg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -47,4 +48,108 @@ img{
     font-size: 1.5rem;
     text-align: center;
     padding-bottom: 1rem;
+    color: var(--dark-blue);
+    font-weight: 900;
+}
+
+.first__text__content p{
+    text-align: center;
+    font-size: .75rem;
+    line-height: 1.5;
+    color: var(--d-blue);
+    padding-bottom: .95rem;
+}
+
+.subscription__content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    background-color: var(--v-pale-blue);
+    border-radius: 10px;
+}
+
+.icon{
+    margin: 1rem .45rem;
+}
+
+.icon img{
+    width: 35px;
+    margin-left: -.55rem;
+    margin-right: .5rem;
+}
+
+.plan__group{
+    margin-right: 4rem;
+}
+
+.plan__group h2{
+    font-size: .70rem;
+    color: var(--dark-blue);
+    padding-bottom: .2rem;
+    font-weight: 900;
+}
+
+.plan__group p{
+    font-size: .65rem;
+    color: var(--d-blue);
+    font-weight: 500;
+}
+
+.link a{
+    font-size: .75rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all .5s ease;
+}
+
+.link a:hover{
+    color: var(--d-blue);
+}
+
+.action__content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.proceed__btn{
+    background-color: var(--bright-blue);
+    padding: .65rem 3.9rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 20px 25px -3px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.proceed__btn:hover{
+    background-color: var(--d-blue);
+}
+
+.proceed__btn a{
+    color: #fff;
+    text-decoration: none;
+    font-size: .85rem;
+}
+
+.cancel__btn{
+    margin-top: .25rem;
+}
+
+.cancel__btn a{
+    text-decoration: none;
+    font-size: .80rem;
+    font-weight: 900;
+    color: var(--d-blue);
+    transition: all .5s ease;
+}
+
+.cancel__btn a:hover{
+    color: var(--dark-blue);
+}
+
+#attribution{
+    margin-top: 4rem;
 }
